@@ -1,0 +1,51 @@
+chip-hwtest (0.8) unstable; urgency=low
+
+  * Minor text fix [VuokkoVuorinnen]
+  * Fix dependency conflict between mtd-utils packages
+
+ -- Ben Young <software@nextthing.co>  Mon, 29 Aug 2016 13:16:05 -0800
+
+chip-hwtest (0.7) unstable; urgency=low
+
+  * Set dependencie for new mtd-utils-mlc
+
+ -- Ben Young <software@nextthing.co>  Mon, 08 Aug 2016 16:28:05 -0800
+
+chip-hwtest (0.6) unstable; urgency=low
+
+  * Fix issues with new kernel and i2c bus readouts.
+  * Generalized i2c reads and lshw hw list [thanks x56!].
+  * Expanded battery.sh readouts [JKW]
+
+ -- Ben Young <software@nextthing.co>  Mon, 08 Aug 2016 12:59:05 -0800
+
+chip-hwtest (0.5) unstable; urgency=low
+
+  * Change target architecture in /debian/.
+
+ -- Ben Young <software@nextthing.co>  Tue, 08 Mar 2016 21:10:05 -0800
+
+chip-hwtest (0.4) unstable; urgency=low
+
+  * Added bad block test.
+
+ -- Ben Young <software@nextthing.co>  Fri, 19 Feb 2016 16:10:05 -0800
+
+chip-hwtest (0.3) unstable; urgency=low
+
+  * Added a new NAND test to run when hwtest is called.
+
+ -- Ben Young <software@nextthing.co>  Wed, 13 Jan 2016 20:29:05 -0800
+
+chip-hwtest (0.2) unstable; urgency=low
+
+  * Added new NAND test.
+  * Added dependencies for NAND test.
+
+ -- Ben Young <software@nextthing.co>  Wed, 13 Jan 2016 15:56:05 -0800
+
+chip-hwtest (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ben Young <software@nextthing.co>  Wed, 18 Nov 2015 16:56:05 -0800
